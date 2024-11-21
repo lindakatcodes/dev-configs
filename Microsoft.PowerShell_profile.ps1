@@ -1,0 +1,2 @@
+Import-Module -Name Terminal-Icons
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/lindakatcodes/dev-configs/refs/heads/main/oh_my_posh_the_unnamed_theme_adjusted.json' | Invoke-Expression
