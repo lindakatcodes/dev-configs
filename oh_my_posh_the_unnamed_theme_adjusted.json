@@ -23,14 +23,14 @@
           "type": "git"
         },
         {
-          "foreground": "#44FFD2",
+          "foreground": "#417E38",
           "properties": {
             "fetch_version": true,
             "fetch_package_manager": true,
             "npm_icon": ""
           },
           "style": "plain",
-          "template": "<#EBEEEF>via</>  {{ .Full }} <#EBEEEF>and</> {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}",
+          "template": "<#EBEEEF>via</>  {{ .Full }} <#EBEEEF>and</> {{ if .PackageManagerIcon }}{{ if .Segments.Contains \"Npm\" }}<#FE4A49>{{ end }}{{ if .Segments.Contains \"Yarn\" }}<#2E2A65>{{ end }}{{ .PackageManagerIcon }}</> {{ end }}",
           "type": "node"
         },
         {
