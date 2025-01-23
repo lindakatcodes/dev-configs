@@ -32,10 +32,21 @@
           "type": "node"
         },
         {
-          "foreground": "#FE4A49",
+          "type": "text",
           "style": "plain",
-          "template": "<#EBEEEF>and</>  {{ .Full }} ",
-          "type": "npm"
+          "template": "<#EBEEEF>and</>"
+        },
+        {
+          "type": "npm",
+          "style": "plain",
+          "foreground": "#FE4A49",
+          "template": "  {{ .Full }} "
+        },
+        {
+          "type": "yarn",
+          "style": "plain",
+          "foreground": "#2E2A65",
+          "template": " 󰄛 {{ .Full }} "
         },
         {
           "type": "time",
