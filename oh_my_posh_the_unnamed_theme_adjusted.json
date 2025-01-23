@@ -37,6 +37,9 @@
           "type": "npm",
           "style": "plain",
           "foreground": "#FE4A49",
+          "properties": {
+            "display_mode": "files"
+          },
           "template": "{{ .Full }} "
         },
         {
