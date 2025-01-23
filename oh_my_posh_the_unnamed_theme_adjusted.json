@@ -25,28 +25,25 @@
         {
           "foreground": "#44FFD2",
           "properties": {
-            "fetch_version": true
+            "fetch_version": true,
+            "fetch_package_manager": true,
+            "npm_icon": ""
           },
           "style": "plain",
-          "template": "<#EBEEEF>via</>  {{ .Full }} ",
+          "template": "<#EBEEEF>via</>  {{ .Full }} <#EBEEEF>and</> {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}",
           "type": "node"
-        },
-        {
-          "type": "text",
-          "style": "plain",
-          "template": "<#EBEEEF>and</>"
         },
         {
           "type": "npm",
           "style": "plain",
           "foreground": "#FE4A49",
-          "template": "  {{ .Full }} "
+          "template": "{{ .Full }} "
         },
         {
           "type": "yarn",
           "style": "plain",
           "foreground": "#2E2A65",
-          "template": " 󰄛 {{ .Full }} "
+          "template": "{{ .Full }} "
         },
         {
           "type": "time",
