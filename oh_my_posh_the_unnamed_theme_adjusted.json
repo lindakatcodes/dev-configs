@@ -38,7 +38,8 @@
           "style": "plain",
           "foreground": "#FE4A49",
           "properties": {
-            "display_mode": "files"
+            "display_mode": "files",
+            "extensions": ["package-lock.json"]
           },
           "template": "{{ .Full }} "
         },
@@ -46,6 +47,10 @@
           "type": "yarn",
           "style": "plain",
           "foreground": "#2E2A65",
+          "properties": {
+            "display_mode": "files",
+            "extensions": ["yarn.lock"]
+          },
           "template": "{{ .Full }} "
         },
         {
