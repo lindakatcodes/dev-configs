@@ -30,7 +30,7 @@
             "npm_icon": ""
           },
           "style": "plain",
-          "template": "<#EBEEEF>via</>  {{ .Full }} <#EBEEEF>and</> {{ if .PackageManagerIcon }}{{ if .Segments.Contains \"Npm\" }}<#FE4A49>{{ end }}{{ if .Segments.Contains \"Yarn\" }}<#514BC3>{{ end }}{{ .PackageManagerIcon }}</> {{ end }}",
+          "template": "<#EBEEEF>via</>  {{ .Full }} <#EBEEEF>and</> {{ if .PackageManagerIcon }}{{ if .Segments.Contains \"Npm\" }}<#FE4A49>{{ end }}{{ if .Segments.Contains \"Yarn\" }}<#6a64dd>{{ end }}{{ .PackageManagerIcon }}</> {{ end }}",
           "type": "node"
         },
         {
@@ -46,7 +46,7 @@
         {
           "type": "yarn",
           "style": "plain",
-          "foreground": "#514BC3",
+          "foreground": "#6a64dd",
           "properties": {
             "display_mode": "files",
             "extensions": ["yarn.lock"]
