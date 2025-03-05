@@ -75,3 +75,5 @@ matches:
     replace: "https://github.com/lindakatcodes"
   - trigger: ":link-bs"
     replace: "https://bsky.app/profile/lindakat.com"
+  - trigger: ":link-tw"
+    replace: "https://www.twitch.tv/lindakat"
